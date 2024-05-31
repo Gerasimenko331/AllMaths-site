@@ -1,0 +1,11 @@
+.page {
+    background: linear-gradient(to bottom, #CEE7F5, #096B92);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page h1 {
+    color: #ffffff;
+}

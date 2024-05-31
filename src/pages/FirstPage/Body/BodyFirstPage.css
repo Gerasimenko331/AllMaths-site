@@ -1,0 +1,125 @@
+.body {
+    background-image: url("images/BackgroundPicture.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #096B92;
+  }
+
+  .rectangle {
+    width: 1048px;
+    height: 530px;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border: #CEE7F5 solid 3px;
+  }
+
+  .button {
+    width: 375px;
+    height: 74px;
+    background-color: #FF932A;
+    border-radius: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 68px;
+  }
+
+  .textStyleFirst {
+    font-family: "Bitter";
+    font-weight: bold;
+    font-size: 52px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .textStyleSecond {
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .textStyleThird {
+    font-family: "Bitter";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    color: #FF932A;
+    margin-top: 40px;
+  }
+  
+  .textStyleFourth {
+    font-family: "Nunito";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+  }
+
+  .imageStyle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .textStyleButton {
+    flex: 1; /* Растянуть текст на всё доступное пространство */
+  }
+  
+  .containerStyle {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+  }
+
+  .buttonContainerStyle {
+    margin: 20px; /* Увеличение расстояния между кнопками */
+  }
+  
+  .imageOwlStyle {
+    position: absolute;
+    bottom: -89px;
+    right: 0;
+    height: 180px;
+  }
+  
+  .imageAskStyle {
+    position: absolute;
+    bottom: -10px;
+    right: 164px;
+    height: 100px;
+  }
+  
+  .textStyleAsk {
+    font-family: "Nunito";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -10px;
+    right: 210px;
+    z-index: 1;
+  }
