@@ -1,3 +1,7 @@
+
+
+
+
 import React from 'react';
 import BackgroundPicture from './BackgroundPicture.png';
 import Arrow from './arrow.svg';
@@ -64,6 +68,23 @@ function BodyFirstPage() {
         margin: '50px', 
     };
 
+    const textStyleThird = {
+        fontFamily: "Bitter",
+        fontWeight: "bold",
+        fontSize: "30px",
+        textAlign: "center",
+        margin: "20px 0",
+        color: "#FF932A",
+      };
+    
+      const textStyleFourth = {
+        fontFamily: "Nunito",
+        fontWeight: "regular",
+        fontSize: "30px",
+        textAlign: "center",
+        margin: "20px 0",
+      };
+
     const imageStyle = {
         width: '40px', 
         height: '40px',
@@ -84,7 +105,17 @@ function BodyFirstPage() {
             </button>
             </div>
 
-            <div style={{ ...rectangleStyle, width: '692px' }}></div>
+            <div style={{ ...rectangleStyle, width: "692px" }}>
+        <p style={textStyleThird}>
+          Скачай мобильное приложение <br /> и носи математику в кармане!
+        </p>
+        <p style={textStyleFourth}>
+          Уже 10000+ школьников учат формулы
+          <br />с помощью приложения,
+          <br />
+          присоединяйся к успеху и ты!
+        </p>
+      </div>
         </div>
     );
 }
