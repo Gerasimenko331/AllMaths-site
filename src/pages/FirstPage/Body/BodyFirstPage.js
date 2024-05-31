@@ -1,10 +1,10 @@
 import React from "react";
-import BackgroundPicture from "./BackgroundPicture.png";
-import Arrow from "./arrow.svg";
-import ImageButtonAndroid from "./ImageButtonAndroid";
-import ImageButtonIos from "./ImageButtonIos";
-import Owl from "./Owl.svg";
-import Ask from "./askEllipse.png";
+import BackgroundPicture from "./images/BackgroundPicture.png";
+import Arrow from "./images/arrow.svg";
+import ImageButtonAndroid from "./buttons/ImageButtonAndroid";
+import ImageButtonIos from "./buttons/ImageButtonIos";
+import Owl from "./images/Owl.svg";
+import Ask from "./images/askEllipse.png";
 
 function BodyFirstPage() {
   const bodyStyle = {
@@ -27,6 +27,7 @@ function BodyFirstPage() {
     padding: "20px", // добавим внутренний отступ для контента
     flexDirection: "column",
     alignItems: "center",
+    border: "#CEE7F5 solid 3px",
   };
 
   const buttonStyle = {

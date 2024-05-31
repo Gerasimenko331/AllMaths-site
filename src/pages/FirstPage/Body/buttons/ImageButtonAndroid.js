@@ -1,17 +1,17 @@
 import React from 'react';
-import iosLogo from './iosLogo.svg';
+import androidLogo from '../images/androidLogo.svg';
 
-function ImageButtonIos() {
+function ImageButtonAndroid() {
     const handleButtonClick = () => {
-      alert('Кнопка IOS нажата!');
+      alert('Кнопка ANDROID нажата!');
       // Другие действия при нажатии на кнопку
     };
   
     return (
       <button onClick={handleButtonClick} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>
-        <img src={iosLogo} alt="Button" style={{ width: '100px', height: '100px' }} />
+        <img src={androidLogo} alt="Button" style={{ width: '100px', height: '100px' }} />
       </button>
     );
   }
   
-  export default ImageButtonIos;
+  export default ImageButtonAndroid;
