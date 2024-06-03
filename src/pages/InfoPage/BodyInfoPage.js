@@ -1,10 +1,12 @@
 import React from "react";
 import './BodyInfoPage.css';
+import Cup from '../../assets/Cup.svg';
 
 function BodyInfoPage() {
 
   return (
     <div className="pageSecond">
+      <img src={Cup} alt="" />
       <div className="rectangle-first">Бесплатно</div>
       <div className="rectangle-second">
         Вся необходимая теория для сдачи ОГЭ и ЕГЭ
