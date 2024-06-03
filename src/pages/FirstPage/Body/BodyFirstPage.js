@@ -7,6 +7,12 @@ import Owl from "./images/Owl.svg";
 import Ask from "./images/askEllipse.png";
 
 function BodyFirstPage() {
+
+  const handleButtonClick = () => {
+    const chatUrl = "https://t.me/Nastushenka"; // Замените на ссылку на ваш чат в Телеграм
+    window.open(chatUrl, "_blank");
+  };
+
   return (
     <div className="body">
       <div className="rectangle">
@@ -19,7 +25,7 @@ function BodyFirstPage() {
           школьников к экзаменам. <br /> Наши ученики сдают ЕГЭ на 95+ баллов,
           ОГЭ на отлично.
         </p>
-        <button className="button" style={{ flex: 1 }}>
+        <button className="button" style={{ flex: 1, cursor: 'pointer' }} onClick={handleButtonClick}>
           Репетитор
           <img className="imageStyle" src={Arrow} alt="" />
         </button>
