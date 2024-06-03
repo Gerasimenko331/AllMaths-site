@@ -1,7 +1,7 @@
 import React from 'react';
-import './BodyThirdPage.css';
+import './BodyConclusionPage.css';
 
-   const BodyThirdPage = () => {
+   const BodyConclusionPage = () => {
 
        return (
            <div className="page">
@@ -10,4 +10,4 @@ import './BodyThirdPage.css';
        );
    }
 
-   export default BodyThirdPage;
+   export default BodyConclusionPage;

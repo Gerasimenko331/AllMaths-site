@@ -1,12 +1,12 @@
 import React from "react";
-import "./BodyFirstPage.css";
+import "./BodyGreetingPage.css";
 import Arrow from "./images/arrow.svg";
 import ImageButtonAndroid from "./buttons/ImageButtonAndroid";
 import ImageButtonIos from "./buttons/ImageButtonIos";
 import Owl from "./images/Owl.svg";
 import Ask from "./images/askEllipse.png";
 
-function BodyFirstPage() {
+function BodyGreetingPage() {
 
   const handleButtonClick = () => {
     const chatUrl = "https://t.me/Nastushenka"; // Замените на ссылку на ваш чат в Телеграм
@@ -62,4 +62,4 @@ function BodyFirstPage() {
   );
 }
 
-export default BodyFirstPage;
+export default BodyGreetingPage;

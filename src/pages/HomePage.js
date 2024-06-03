@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from './FirstPage/Header/Header';
-import BodyFirstPage from './FirstPage/Body/BodyFirstPage';
-import BodySecondPage from './SecondPage/BodySecondPage';
-import BodyThirdPage from './ThirdPage/BodyThirdPage';
+import Header from './GreetingPage/Header/Header';
+import BodyGreetingPage from './GreetingPage/Body/BodyGreetingPage';
+import BodyInfoPage from './InfoPage/BodyInfoPage';
+import BodyConclusionPage from './ConclusionPage/BodyConclusionPage';
 
 const HomePage = () => {
    return (
       <div>
         <Header />
-        <BodyFirstPage />
-        <BodySecondPage />
-        <BodyThirdPage />
+        <BodyGreetingPage />
+        <BodyInfoPage />
+        <BodyConclusionPage />
       </div>
    );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import './BodySecondPage.css';
+import './BodyInfoPage.css';
 
-function BodySecondPage() {
+function BodyInfoPage() {
 
   return (
     <div className="pageSecond">
@@ -18,4 +18,4 @@ function BodySecondPage() {
   );
 }
 
-export default BodySecondPage;
+export default BodyInfoPage;
