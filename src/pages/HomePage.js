@@ -12,7 +12,6 @@ const HomePage = () => {
         <BodyGreetingPage />
         <BodyInfoPage />
         <BodyConclusionPage />
-        <Footer />
       </div>
    );
 }
