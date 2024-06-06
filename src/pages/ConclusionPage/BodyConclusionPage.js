@@ -62,7 +62,7 @@ const BodyConclusionPage = () => {
                   border: "none",
                   background: "none",
                   cursor: "pointer",
-                  height: "74px",
+                  height: "78px",
                   marginLeft: "-8px",
                 }}
               >
@@ -74,7 +74,7 @@ const BodyConclusionPage = () => {
                     // position: "absolute",
                     // bottom: "-420px",
                     // right: "-700px",
-                    height: "74px",
+                    height: "78px",
                   }}
                 />
               </button>
@@ -85,7 +85,7 @@ const BodyConclusionPage = () => {
                   border: "none",
                   background: "none",
                   cursor: "pointer",
-                  height: "74px",
+                  height: "78px",
                 }}
               >
                 <img
@@ -96,7 +96,7 @@ const BodyConclusionPage = () => {
                     // position: "absolute",
                     // bottom: "-420px",
                     // right: "-700px",
-                    height: "74px",
+                    height: "78px",
                   }}
                 />
               </button>
