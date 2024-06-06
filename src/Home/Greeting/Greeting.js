@@ -55,6 +55,7 @@ function BodyGreetingPage() {
           Учи математику с <br />
           удовольствием!
         </p>
+        {/* <TypingText text="Учи математику с удовольствием!" /> */}
         <img src={Ask} className="imageAskStyle" alt="" />
         <img src={Owl} className="imageOwlStyle" alt="" />
       </div>

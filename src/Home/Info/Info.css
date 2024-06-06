@@ -135,4 +135,19 @@
     opacity: 0;
   }
   
+  .rectangle-first, .rectangle-second, .rectangle-third {
+    opacity: 0;
+  }
+  
+  .rectangle-first.animated {
+    animation: slideInLeft 1s forwards;
+  }
+  
+  .rectangle-second.animated {
+    animation: slideInRight 1s forwards;
+  }
+  
+  .rectangle-third.animated {
+    animation: slideInLeft 1s forwards;
+  }
   

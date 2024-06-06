@@ -123,3 +123,23 @@
     right: 210px;
     z-index: 1;
   }
+
+  .button:hover {
+    background-color: #FFCC99;
+  }
+
+  .rectangle {
+    opacity: 0; /* Начальная прозрачность */
+    animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Начальное расположение */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Конечное расположение */
+    }
+  }

@@ -62,8 +62,9 @@ const Conclusion = () => {
                   border: "none",
                   background: "none",
                   cursor: "pointer",
-                  height: "78px",
+                  height: "77px",
                   marginLeft: "-8px",
+                  marginRight: "30px"
                 }}
               >
                 <img
@@ -74,7 +75,7 @@ const Conclusion = () => {
                     // position: "absolute",
                     // bottom: "-420px",
                     // right: "-700px",
-                    height: "78px",
+                    height: "77px",
                   }}
                 />
               </button>
@@ -85,7 +86,7 @@ const Conclusion = () => {
                   border: "none",
                   background: "none",
                   cursor: "pointer",
-                  height: "78px",
+                  height: "77px",
                 }}
               >
                 <img
@@ -96,7 +97,7 @@ const Conclusion = () => {
                     // position: "absolute",
                     // bottom: "-420px",
                     // right: "-700px",
-                    height: "78px",
+                    height: "77px",
                   }}
                 />
               </button>
