@@ -1,5 +1,5 @@
 .body {
-    background-image: url("images/BackgroundPicture.png");
+    background-image: url("/Users/frontend/AllMaths-site/src/assets/BackgroundPicture.png");
     background-size: cover;
     background-position: center;
     height: 100vh;

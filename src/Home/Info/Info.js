@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
-import "./BodyInfoPage.css";
+import "./Info.css";
 import Cup from "../../assets/Cup.svg";
 import InfoScrollAnimation from "./InfoScrollAnimation";
 
 
-function BodyInfoPage() {
+function Info() {
 
   return (
     <div className="pageSecond">
@@ -26,4 +26,4 @@ function BodyInfoPage() {
   );
 }
 
-export default BodyInfoPage;
+export default Info;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { InView } from 'react-intersection-observer';
-import './BodyInfoPage.css';
+import './Info.css';
 
 const InfoScrollAnimation = () => {
     const handleIntersection = (inView, entry) => {

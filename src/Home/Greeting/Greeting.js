@@ -1,10 +1,10 @@
 import React from "react";
-import "./BodyGreetingPage.css";
-import Arrow from "./images/arrow.svg";
-import ImageButtonAndroid from "./buttons/ImageButtonAndroid";
-import ImageButtonIos from "./buttons/ImageButtonIos";
+import "./Greeting.css";
+import Arrow from "/Users/frontend/AllMaths-site/src/assets/arrow.svg";
+import ImageButtonAndroid from "/Users/frontend/AllMaths-site/src/Home/Greeting/buttons/Android.js";
+import ImageButtonIos from "/Users/frontend/AllMaths-site/src/Home/Greeting/buttons/Ios.js";
 import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
-import Ask from "./images/askEllipse.png";
+import Ask from "/Users/frontend/AllMaths-site/src/assets/askEllipse.png";
 
 function BodyGreetingPage() {
 

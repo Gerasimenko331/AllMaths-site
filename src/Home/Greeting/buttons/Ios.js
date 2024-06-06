@@ -1,5 +1,5 @@
 import React from 'react';
-import iosLogo from '../images/iosLogo.svg';
+import iosLogo from '/Users/frontend/AllMaths-site/src/assets/iosLogo.svg';
 
 function ImageButtonIos() {
     const handleButtonClick = () => {

@@ -1,11 +1,11 @@
 import React from "react";
-import "./BodyConclusionPage.css";
-import Footer from "./Footer/Footer";
+import "./Conclusion.css";
+import Footer from "/Users/frontend/AllMaths-site/src/Home/Footer/Footer.js";
 import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
 import googlePlay from "/Users/frontend/AllMaths-site/src/assets/googlePlayButton.svg";
 import appStore from "/Users/frontend/AllMaths-site/src/assets/appStoreButton.svg";
 
-const BodyConclusionPage = () => {
+const Conclusion = () => {
   const handleButtonClickGooglePlay = () => {
     const url =
       "https://apps.apple.com/ru/app/all-maths-%D0%B2%D1%81%D1%8F-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/id1553690815";
@@ -110,4 +110,4 @@ const BodyConclusionPage = () => {
   );
 };
 
-export default BodyConclusionPage;
+export default Conclusion;

@@ -1,11 +1,11 @@
 import React from 'react';
-import HomePage from './pages/HomePage';
+import Home from '/Users/frontend/AllMaths-site/src/Home/Home.js';
 
 
 const App = () => {
    return (
       <div>
-         <HomePage />
+         <Home />
       </div>
    );
 }

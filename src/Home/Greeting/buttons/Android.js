@@ -1,5 +1,5 @@
 import React from 'react';
-import androidLogo from '../images/androidLogo.svg';
+import androidLogo from '/Users/frontend/AllMaths-site/src/assets/androidLogo.svg';
 
 function ImageButtonAndroid() {
     const handleButtonClick = () => {
