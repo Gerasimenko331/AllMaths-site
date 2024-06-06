@@ -1,12 +1,50 @@
 .page {
-    background: linear-gradient(to bottom, #CEE7F5, #096B92);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background: linear-gradient(to bottom, #cee7f5, #096b92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 50px;
 }
 
 .page h1 {
-    color: #ffffff;
+  color: #096b92;
+  font-family: "Bitter";
+  font-weight: bold;
+  font-size: 52px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.page h1 span {
+  color: white;
+}
+
+.page h2 {
+  color: white;
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+}
+.page p {
+  color: black;
+  font-family: "Nunito";
+  font-weight: regular;
+  font-size: 24px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* равное распределение между элементами */
+  width: 100%;
+}
+
+.Owl {
+  height: 400px;
+  margin: auto;
+  margin-left: 150px;
 }

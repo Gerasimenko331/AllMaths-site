@@ -3,7 +3,7 @@ import "./BodyGreetingPage.css";
 import Arrow from "./images/arrow.svg";
 import ImageButtonAndroid from "./buttons/ImageButtonAndroid";
 import ImageButtonIos from "./buttons/ImageButtonIos";
-import Owl from "./images/Owl.svg";
+import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
 import Ask from "./images/askEllipse.png";
 
 function BodyGreetingPage() {

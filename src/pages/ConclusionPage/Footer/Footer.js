@@ -10,12 +10,6 @@ function Footer() {
     window.open(url, "_blank");
   };
 
-  // const handleButtonClickMAIL = () => {
-  //   const url =
-  //     "https://apps.apple.com/ru/app/all-maths-%D0%B2%D1%81%D1%8F-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82И Styling ка/id1553690815";
-  //   window.open(url, "_blank");
-  // };
-
   const handleButtonClickPHONE = () => {
     const url = "https://t.me/Nastushenka";
     window.open(url, "_blank");
@@ -34,90 +28,86 @@ function Footer() {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: "space-between", width: "94%" }}>
       <img
         className="LineFooter"
         src={line}
         alt=""
         style={{
-          position: "relative",
-          bottom: "-442px",
-          left: "-770px",
+          // position: "relative",
+          // bottom: "-442px",
+          // left: "-770px",
           height: "48px",
         }}
       />
-      <button
-        onClick={handleButtonClickPHONE}
-        style={{
-          position: "relative",
-          border: "none",
-          background: "none",
-          cursor: "pointer",
-          width: "50px",
-          height: "50px",
-        }}
-      >
-        <img
-          className="VKicon"
-          src={phone}
-          alt="VK Button"
+      <div style={{ display: "flex", justifyContent: "space-between", width: "240px" }}>
+        <button
+          onClick={handleButtonClickPHONE}
           style={{
-            position: "absolute",
-            bottom: "-420px",
-            right: "-700px",
-            width: "50px",
-            height: "50px",
+            // position: "relative",
+            border: "none",
+            background: "none",
+            cursor: "pointer",
+            height: "48px",
           }}
-        />
-      </button>
-      <button
-        onClick={handleButtonClickVK}
-        style={{
-          position: "relative",
-          border: "none",
-          background: "none",
-          cursor: "pointer",
-          width: "50px",
-          height: "50px",
-        }}
-      >
-        <img
-          className="VKicon"
-          src={vk}
-          alt="VK Button"
+        >
+          <img
+            className="VKicon"
+            src={phone}
+            alt="VK Button"
+            style={{
+              // position: "absolute",
+              // bottom: "-420px",
+              // right: "-700px",
+              height: "48px",
+            }}
+          />
+        </button>
+        <button
+          onClick={handleButtonClickVK}
           style={{
-            position: "absolute",
-            bottom: "-420px",
-            right: "-740px",
-            width: "50px",
-            height: "50px",
+            // position: "relative",
+            border: "none",
+            background: "none",
+            cursor: "pointer",
+            height: "48px",
           }}
-        />
-      </button>
-      <button
-        onClick={handleButtonClickMAIL}
-        style={{
-          position: "relative",
-          border: "none",
-          background: "none",
-          cursor: "pointer",
-          width: "50px",
-          height: "50px",
-        }}
-      >
-        <img
-          className="VKicon"
-          src={mail}
-          alt="VK Button"
+        >
+          <img
+            className="VKicon"
+            src={vk}
+            alt="VK Button"
+            style={{
+              // position: "absolute",
+              // bottom: "-420px",
+              // right: "-740px",
+              height: "48px",
+            }}
+          />
+        </button>
+        <button
+          onClick={handleButtonClickMAIL}
           style={{
-            position: "absolute",
-            bottom: "-420px",
-            right: "-780px",
-            width: "50px",
-            height: "50px",
+            // position: "relative",
+            border: "none",
+            background: "none",
+            cursor: "pointer",
+            height: "48px",
           }}
-        />
-      </button>
+        >
+          <img
+            className="VKicon"
+            src={mail}
+            alt="VK Button"
+            style={{
+              // position: "absolute",
+              // bottom: "-420px",
+              // right: "-780px",
+              height: "48px",
+            }}
+          />
+        </button>
+      </div>
     </div>
   );
 }
