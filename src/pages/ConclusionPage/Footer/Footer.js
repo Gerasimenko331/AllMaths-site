@@ -2,11 +2,11 @@ import React from "react";
 import vk from "/Users/frontend/AllMaths-site/src/assets/vk.svg";
 import mail from "/Users/frontend/AllMaths-site/src/assets/mail.svg";
 import phone from "/Users/frontend/AllMaths-site/src/assets/phone.svg";
+import line from "/Users/frontend/AllMaths-site/src/assets/lineFooter.svg";
 
 function Footer() {
   const handleButtonClickVK = () => {
-    const url =
-      "https://vk.com/all_maths";
+    const url = "https://vk.com/all_maths";
     window.open(url, "_blank");
   };
 
@@ -17,21 +17,35 @@ function Footer() {
   // };
 
   const handleButtonClickPHONE = () => {
-    const url =
-      "https://t.me/Nastushenka";
+    const url = "https://t.me/Nastushenka";
     window.open(url, "_blank");
   };
 
   const handleButtonClickMAIL = () => {
-    const email = 'aegerasimenko@yandex.ru';
-    const subject = 'Вопрос по сайту';
-    const body = 'Здравствуйте!';
+    const email = "aegerasimenko@yandex.ru";
+    const subject = "Вопрос по сайту";
+    const body = "Здравствуйте!";
 
-    window.open(`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
-};
+    window.open(
+      `mailto:${email}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(body)}`
+    );
+  };
 
   return (
     <div>
+      <img
+        className="LineFooter"
+        src={line}
+        alt=""
+        style={{
+          position: "relative",
+          bottom: "-442px",
+          left: "-770px",
+          height: "48px",
+        }}
+      />
       <button
         onClick={handleButtonClickPHONE}
         style={{
