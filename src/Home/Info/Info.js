@@ -9,7 +9,7 @@ function Info() {
   return (
     <div className="pageSecond">
       <img src={Cup} alt="" />
-       <div className="rectangle rectangle-first">
+       {/* <div className="rectangle rectangle-first">
         <div className="rectangle-text-info">1</div> Бесплатно
       </div>
       <div className="rectangle rectangle-second">
@@ -20,8 +20,8 @@ function Info() {
         Возможность изучать математику в любом месте и в любое время
         <br />
         Быстрый поиск информации помогает ускорить выполнение ДЗ
-      </div>
-      {/* <InfoScrollAnimation/> */}
+      </div> */}
+      <div><InfoScrollAnimation /></div>
     </div>
   );
 }

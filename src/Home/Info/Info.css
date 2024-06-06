@@ -83,6 +83,14 @@
     border-top: 2px solid white;
 }
 
+.pageSecondInfo {
+  background-color: #CEE7F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .rectangle-first, .rectangle-second, .rectangle-third {
     opacity: 0; /* Установка начальной прозрачности */
   }
@@ -135,19 +143,4 @@
     opacity: 0;
   }
   
-  .rectangle-first, .rectangle-second, .rectangle-third {
-    opacity: 0;
-  }
-  
-  .rectangle-first.animated {
-    animation: slideInLeft 1s forwards;
-  }
-  
-  .rectangle-second.animated {
-    animation: slideInRight 1s forwards;
-  }
-  
-  .rectangle-third.animated {
-    animation: slideInLeft 1s forwards;
-  }
   

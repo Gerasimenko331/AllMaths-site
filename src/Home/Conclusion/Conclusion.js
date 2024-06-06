@@ -4,6 +4,7 @@ import Footer from "/Users/frontend/AllMaths-site/src/Home/Footer/Footer.js";
 import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
 import googlePlay from "/Users/frontend/AllMaths-site/src/assets/googlePlayButton.svg";
 import appStore from "/Users/frontend/AllMaths-site/src/assets/appStoreButton.svg";
+import TextOnScroll from './TextOnScroll'
 
 const Conclusion = () => {
   const handleButtonClickGooglePlay = () => {
@@ -23,7 +24,7 @@ const Conclusion = () => {
       </h1>
       <div style={{ display: "flex", flexDirection: "row", marginBottom: "100px"}}>
         <div className="container">
-          <p className="p">
+          {/* <p className="p">
             Поступление в университет и подготовка к нему - всегда волнительный
             процесс. Каждому <br />
             школьнику и родителю хочется добиться поставленных целей и попасть
@@ -51,7 +52,8 @@ const Conclusion = () => {
             под других людей. В онлайн формате можно заниматься математикой,
             когда удобно, тратя
             <br /> свои ресурсы с умом.
-          </p>
+          </p> */}
+          <TextOnScroll/>
           <div style={{marginTop: "10px"}}>
             <h2>Выбирай свой путь и достигай успеха!</h2>
             <div>
