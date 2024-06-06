@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AllMaths-site/static/css/main.1c30f6f2.css",
+    "main.js": "/AllMaths-site/static/js/main.d0e8d384.js",
+    "static/media/Owl.svg": "/AllMaths-site/static/media/Owl.8572b56b19fd23d9a81f28ee814fb005.svg",
+    "static/media/logo.svg": "/AllMaths-site/static/media/logo.f1a0c4cbb2484227c777b03dfcf4388d.svg",
+    "static/media/BackgroundPicture.png": "/AllMaths-site/static/media/BackgroundPicture.4e7741e895383691549c.png",
+    "static/media/googlePlayButton.svg": "/AllMaths-site/static/media/googlePlayButton.6ca82f3e478db7ee4b0f42309d42f694.svg",
+    "static/media/appStoreButton.svg": "/AllMaths-site/static/media/appStoreButton.a815f088287b1cb939d631d3a9052d1a.svg",
+    "static/media/vk.svg": "/AllMaths-site/static/media/vk.faf9d54f9199c6c1da90bfd6b97094c4.svg",
+    "static/media/androidLogo.svg": "/AllMaths-site/static/media/androidLogo.175611e3037afbcd0c09f3a55c9e8760.svg",
+    "static/media/iosLogo.svg": "/AllMaths-site/static/media/iosLogo.ad5e10f9a913790fbd06b734dc4c9c46.svg",
+    "static/media/mail.svg": "/AllMaths-site/static/media/mail.9e42783f8a691b2ade6c52d51ebd9da1.svg",
+    "static/media/Cup.svg": "/AllMaths-site/static/media/Cup.b0066e737c7bdb614423d6da8d0c9230.svg",
+    "static/media/phone.svg": "/AllMaths-site/static/media/phone.22e3ae7cbaa2f0e5110d6e6f1b379335.svg",
+    "static/media/arrow.svg": "/AllMaths-site/static/media/arrow.efc8381dc38934776c1725180da24f35.svg",
+    "index.html": "/AllMaths-site/index.html",
+    "static/media/lineFooter.svg": "/AllMaths-site/static/media/lineFooter.2b5f6ccb02788dd7bbd4d945c0a2ac7e.svg",
+    "main.1c30f6f2.css.map": "/AllMaths-site/static/css/main.1c30f6f2.css.map",
+    "main.d0e8d384.js.map": "/AllMaths-site/static/js/main.d0e8d384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c30f6f2.css",
+    "static/js/main.d0e8d384.js"
+  ]
+}
