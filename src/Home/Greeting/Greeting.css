@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     border: #CEE7F5 solid 3px;
+    margin-top: -86px;
   }
 
   .button {
@@ -40,7 +41,7 @@
     border: none;
     margin-left: auto;
     margin-right: 20px;
-    margin-top: 68px;
+    margin-top: -10px;
   }
 
   .textStyleFirst {
@@ -81,6 +82,7 @@
   .imageStyle {
     width: 40px;
     height: 40px;
+    margin-bottom: 28px;
   }
   
   .textStyleButton {

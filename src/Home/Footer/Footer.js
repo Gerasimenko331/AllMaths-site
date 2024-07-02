@@ -100,9 +100,6 @@ function Footer() {
             src={mail}
             alt="VK Button"
             style={{
-              // position: "absolute",
-              // bottom: "-420px",
-              // right: "-780px",
               height: "48px",
             }}
           />
