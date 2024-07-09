@@ -15,7 +15,7 @@ function BodyGreetingPage() {
 
   return (
     <div className="body">
-      <div className="rectangle">
+      <div className="rectangle1">
         <p className="textStyleFirst">
           <span style={{ color: "#FF932A" }}>All Maths</span> – приложение
           <br /> по математике <br /> для школьников
@@ -31,7 +31,7 @@ function BodyGreetingPage() {
         </button>
       </div>
 
-      <div className="rectangle larger">
+      <div className="rectangle2">
         <p className="textStyleThird">
           Скачай мобильное приложение <br /> и носи математику в кармане!
         </p>

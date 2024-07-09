@@ -12,7 +12,7 @@ function ImageButtonIos() {
   
     return (
       <button onClick={handleButtonClick} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>
-        <img src={iosLogo} alt="Button" style={{ width: '100px', height: '100px' }} onClick={handleButtonClick} />
+        <img src={iosLogo} alt="Button" class="logos" onClick={handleButtonClick} />
       </button>
     );
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import androidLogo from '/Users/frontend/AllMaths-site/src/assets/androidLogo.svg';
 import './button.css';
+import './logos.css';
 
 function ImageButtonAndroid() {
     const handleButtonClick = () => {
@@ -12,7 +13,7 @@ function ImageButtonAndroid() {
   
     return (
       <button onClick={handleButtonClick} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>
-        <img src={androidLogo} alt="Button" style={{ width: '100px', height: '100px' }} onClick={handleButtonClick} />
+        <img src={androidLogo} alt="Button" class="logos" onClick={handleButtonClick} />
       </button>
     );
   }
