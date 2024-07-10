@@ -18,11 +18,11 @@ function BodyGreetingPage() {
       <div className="rectangle1">
         <p className="textStyleFirst">
           <span style={{ color: "#FF932A" }}>All Maths</span> – приложение
-          <br /> по математике <br /> для школьников
+           по математике для школьников
         </p>
         <p className="textStyleSecond">
-          Программа разработана на основе многолетней <br /> успешной подготовки
-          школьников к экзаменам. <br /> Наши ученики сдают ЕГЭ на 95+ баллов,
+          Программа разработана на основе многолетней  успешной подготовки
+          школьников к экзаменам.  Наши ученики сдают ЕГЭ на 95+ баллов,
           ОГЭ на отлично.
         </p>
         <button className="button" style={{ flex: 1, cursor: 'pointer' }} onClick={handleButtonClick}>
@@ -33,12 +33,12 @@ function BodyGreetingPage() {
 
       <div className="rectangle2">
         <p className="textStyleThird">
-          Скачай мобильное приложение <br /> и носи математику в кармане!
+          Скачай мобильное приложение  и носи математику в кармане!
         </p>
         <p className="textStyleFourth">
           Уже 10000+ школьников учат формулы
-          <br />с помощью приложения,
-          <br />
+          с помощью приложения,
+          
           присоединяйся к успеху и ты!
         </p>
         <div className="containerStyle">
@@ -55,7 +55,6 @@ function BodyGreetingPage() {
           Учи математику с <br />
           удовольствием!
         </p>
-        {/* <TypingText text="Учи математику с удовольствием!" /> */}
         <img src={Ask} className="imageAskStyle" alt="" />
         <img src={Owl} className="imageOwlStyle" alt="" />
       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Info.css";
 import Cup from "../../assets/Cup.svg";
 import InfoScrollAnimation from "./InfoScrollAnimation";
