@@ -78,7 +78,8 @@
     border: none;
     margin-left: auto;
     margin-right: 20px;
-    margin-top: 10px;
+
+
 
     @media (max-width: 768px) {
       width: 80%;
@@ -98,6 +99,7 @@
     font-size: 52px;
     text-align: center;
     margin: 20px 0;
+    margin-bottom: 40px;
 
     @media (max-width: 768px) {
       font-size: 1.5rem;
@@ -113,6 +115,7 @@
     font-size: 30px;
     text-align: center;
     margin: 50px;
+    margin-bottom: 90px;
 
     @media (max-width: 768px) {
       font-size: 18px;
@@ -183,7 +186,7 @@
     @media (max-width: 768px) {
       width: 24px;
       height: 24px;
-      margin-top: 10px;
+      margin-top: 20%;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 10%;

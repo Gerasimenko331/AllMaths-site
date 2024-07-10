@@ -1,6 +1,59 @@
 .VKicon {
-    position: absolute;
-    bottom: -89px;
-    right: 0;
-    height: 50px;
+  height: 48px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  @media (max-width: 768px) {
+    height: 400%;
+    margin: auto;
   }
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  direction: row;
+  position: relative;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+  }
+  
+}
+
+.flex-footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin-left: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;;
+    margin-bottom: 30%;
+  }
+}
+
+.button-icon {
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 48px;
+  margin-left: 10px;
+
+  @media (max-width: 768px) {
+    height: 400%;
+    margin: auto;
+  }
+
+}
+
+.LineFooter {
+  height: 48px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

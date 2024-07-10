@@ -7,6 +7,11 @@
   height: 100vh;
   gap: 50px;
   padding: 100px;
+
+  @media (max-width: 768px) {
+    gap: 10%;
+    padding: 10%;
+  }
 }
 
 .page h1 {
@@ -16,6 +21,11 @@
   font-size: 52px;
   text-align: center;
   margin-top: -20px;
+
+  @media (max-width: 768px) {
+    font-size: 3.5vh;
+    margin-top: 10%;
+  }
 }
 
 .page h1 span {
@@ -28,6 +38,10 @@
   font-weight: bold;
   font-size: 32px;
   text-align: left;
+
+  @media (max-width: 768px) {
+    font-size: 1.5vh;
+  }
 }
 .page p {
   color: black;
@@ -35,12 +49,17 @@
   font-weight: regular;
   font-size: 24px;
   text-align: left;
+
+  @media (max-width: 768px) {
+    font-size: 1.5vh;
+    width: 100%;
+  }
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* равное распределение между элементами */
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -48,6 +67,10 @@
   height: 400px;
   margin: auto;
   margin-left: 150px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .text {
@@ -66,8 +89,69 @@
   }
 }
 
-
 .active {
   opacity: 1; /* Отображение текста при скролле */
   animation: fadeInText 1.5s ease-in-out forwards;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 10%;
+  }
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+
+  @media (max-width: 768px) {
+    margin-top: 10%;
+  }
+}
+
+.button-conclusion {
+  /* position: relative; */
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 77px;
+  margin-left: -8px;
+  margin-right: 30px;
+
+  @media (max-width: 768px) {
+
+
+    border: 1px solid red;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+}
+
+.height-77 {
+  height: 77px;
+
+  @media (max-width: 768px) {
+
+    border: 1px solid blue;
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.buttons {
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    border: 1px solid yellow;
+    display: block;
+
+  }
 }

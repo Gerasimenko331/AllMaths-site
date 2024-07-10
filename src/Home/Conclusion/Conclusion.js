@@ -9,7 +9,7 @@ import TextOnScroll from './TextOnScroll'
 const Conclusion = () => {
   const handleButtonClickGooglePlay = () => {
     const url =
-      "https://apps.apple.com/ru/app/all-maths-%D0%B2%D1%81%D1%8F-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/id1553690815";
+      "https://play.google.com/store/apps/details?id=com.allmaths";
     window.open(url, "_blank");
   };
   const handleButtonClickAppStore = () => {
@@ -22,57 +22,31 @@ const Conclusion = () => {
       <h1 className="h1">
         Зачем мне <span>All Maths</span>?
       </h1>
-      <div style={{ display: "flex", flexDirection: "row", marginBottom: "100px"}}>
+      <div className="flex-container">
         <div className="container">
           
           <TextOnScroll/>
-          <div style={{marginTop: "10px"}}>
+          <div className="margin-top-10">
             <h2>Выбирай свой путь и достигай успеха!</h2>
-            <div>
+            <div className="buttons">
               <button
                 onClick={handleButtonClickGooglePlay}
-                style={{
-                  // position: "relative",
-                  border: "none",
-                  background: "none",
-                  cursor: "pointer",
-                  height: "77px",
-                  marginLeft: "-8px",
-                  marginRight: "30px"
-                }}
+                className="button-conclusion"
               >
                 <img
-                  className=""
+                  className="height-77"
                   src={googlePlay}
                   alt=""
-                  style={{
-                    // position: "absolute",
-                    // bottom: "-420px",
-                    // right: "-700px",
-                    height: "77px",
-                  }}
                 />
               </button>
               <button
                 onClick={handleButtonClickAppStore}
-                style={{
-                  // position: "relative",
-                  border: "none",
-                  background: "none",
-                  cursor: "pointer",
-                  height: "77px",
-                }}
+                className="button-conclusion"
               >
                 <img
-                  className=""
                   src={appStore}
                   alt=""
-                  style={{
-                    // position: "absolute",
-                    // bottom: "-420px",
-                    // right: "-700px",
-                    height: "77px",
-                  }}
+                  className="height-77"
                 />
               </button>
             </div>
