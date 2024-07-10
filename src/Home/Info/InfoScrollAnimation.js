@@ -25,7 +25,7 @@ if (inView) {
       <div className={`rectangleInfo ${active ? 'rectangle-third' : ''}`} ref={ref}>
         <div className="rectangle-text-info">3</div> 
         Возможность изучать математику в любом месте и в любое время
-        <br />
+        
         Быстрый поиск информации помогает ускорить выполнение ДЗ
       </div>
     </div>
