@@ -11,6 +11,7 @@
   @media (max-width: 768px) {
     gap: 10%;
     padding: 10%;
+    padding-top: -10%;
   }
 }
 
@@ -30,6 +31,7 @@
 
 .page h1 span {
   color: white;
+
 }
 
 .page h2 {
@@ -61,6 +63,11 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: 768px) {
+    margin-top: -3rem;
+  }
+
 }
 
 .Owl {
@@ -113,7 +120,6 @@
 }
 
 .button-conclusion {
-  /* position: relative; */
   border: none;
   background: none;
   cursor: pointer;
@@ -123,35 +129,43 @@
 
   @media (max-width: 768px) {
 
-
-    border: 1px solid red;
-    width: 50%;
+    /* border: 1px solid red; */
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
 
   }
 }
 
 .height-77 {
   height: 77px;
+  max-width: 100%; 
+  display: block;
 
   @media (max-width: 768px) {
 
-    border: 1px solid blue;
-
+    /* border: 1px solid blue; */
+    height: 80%;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    margin: 0 auto;
   }
 }
 
 .buttons {
   flex-direction: row;
+  display: flex;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: block;
-
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 0;
   }
 }

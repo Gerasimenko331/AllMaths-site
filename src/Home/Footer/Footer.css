@@ -4,8 +4,10 @@
   margin-left: 10px;
 
   @media (max-width: 768px) {
-    height: 400%;
-    margin: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
   }
 }
 
@@ -19,8 +21,9 @@
   @media (max-width: 768px) {
     width: 100%;
     justify-content: center;
+    position: absolute;
+    margin-top: 200%;
   }
-  
 }
 
 .flex-footer-container {
@@ -31,8 +34,12 @@
 
   @media (max-width: 768px) {
     width: 100%;
-    justify-content: center;;
-    margin-bottom: 30%;
+    justify-content: space-between;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 2rem;
+    margin-top: 20%;
   }
 }
 
@@ -44,10 +51,12 @@
   margin-left: 10px;
 
   @media (max-width: 768px) {
-    height: 400%;
-    margin: auto;
+    height: 2rem;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
   }
-
 }
 
 .LineFooter {
