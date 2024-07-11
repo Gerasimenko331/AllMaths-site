@@ -209,4 +209,10 @@ img {
   @media (max-width: 768px) {
     display: inline;
   }
+
+  @media (max-width: 375px) {
+    display: inline;
+    font-size: 16px;
+    bottom: -92.5vh
+  }
 }

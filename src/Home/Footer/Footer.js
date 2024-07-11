@@ -30,7 +30,6 @@ function Footer() {
 
   return (
 <div className="footer-container">
-  <img className="LineFooter" src={line} alt="" />
   <div className="flex-footer-container">
     <button onClick={handleButtonClickPHONE} className="button-icon">
       <img className="VKicon" src={phone} alt="VK Button" />
