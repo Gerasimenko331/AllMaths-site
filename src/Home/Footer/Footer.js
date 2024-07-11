@@ -29,20 +29,22 @@ function Footer() {
   };
 
   return (
-    <div className="footer-container">
-      <img className="LineFooter" src={line} alt="" />
-      <div className="flex-footer-container">
-        <button onClick={handleButtonClickPHONE} className="button-icon">
-          <img className="VKicon" src={phone} alt="VK Button" />
-        </button>
-        <button onClick={handleButtonClickVK} className="button-icon">
-          <img className="VKicon" src={vk} alt="VK Button" />
-        </button>
-        <button onClick={handleButtonClickMAIL} className="button-icon">
-          <img className="VKicon" src={mail} alt="VK Button" />
-        </button>
-      </div>
-    </div>
+<div className="footer-container">
+  <img className="LineFooter" src={line} alt="" />
+  <div className="flex-footer-container">
+    <button onClick={handleButtonClickPHONE} className="button-icon">
+      <img className="VKicon" src={phone} alt="VK Button" />
+    </button>
+    <button onClick={handleButtonClickVK} className="button-icon">
+      <img className="VKicon" src={vk} alt="VK Button" />
+    </button>
+    <button onClick={handleButtonClickMAIL} className="button-icon">
+      <img className="VKicon" src={mail} alt="VK Button" />
+    </button>
+  </div>
+    <div className="copy">&copy; 2024 All Maths. Все права защищены.</div>
+</div>
+
   );
 }
 

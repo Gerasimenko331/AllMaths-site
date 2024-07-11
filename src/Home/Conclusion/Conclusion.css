@@ -42,7 +42,8 @@
   text-align: left;
 
   @media (max-width: 768px) {
-    font-size: 1.5vh;
+    font-size: 1.9vh;
+    text-align: center;
   }
 }
 .page p {
@@ -81,8 +82,8 @@
 }
 
 .text {
-  opacity: 0; /* Начальная прозрачность текста */
-  /* animation: fadeInText 1.5s ease-in-out forwards; Анимация появления тексту */
+  opacity: 0; 
+
 }
 
 @keyframes fadeInText {

@@ -1,114 +1,109 @@
 .rectangle-first {
-    width: 600px;
-    height: 170px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: Nunito;
-    font-weight: bold;
-    font-size: 40px;
-    justify-content: center;
-    text-align: center;
-    opacity: 0;
-    animation: slideInLeft 1s forwards;
-    animation-delay: 0s;
+  width: 600px;
+  height: 170px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  animation: slideInLeft 1s forwards;
+  animation-delay: 0s;
 
-    @media (max-width: 768px) {
-      width: 30%;
-      height: auto;
-      font-size: 3vh;
-      margin-left: auto;
-      padding: auto;
-      margin-top: 0;
-    }
-
+  @media (max-width: 768px) {
+    width: 30%;
+    height: auto;
+    font-size: 3vh;
+    margin-left: auto;
+    padding: auto;
+    margin-top: 0;
+  }
 }
 
 .rectangle-second {
-    width: 1100px;
-    height: 170px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: Nunito;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    justify-content: center;
-    animation: slideInRight 1s forwards;
-    animation-delay: 0.5s;
-    opacity: 0;
+  width: 1100px;
+  height: 170px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  animation: slideInRight 1s forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
 
-    @media (max-width: 768px) {
-      width: 60%;
-      height: auto;
-      font-size: 2vh;
-      margin-left: auto;
-      padding: auto;
-    }
-
+  @media (max-width: 768px) {
+    width: 60%;
+    height: auto;
+    font-size: 2vh;
+    margin-left: auto;
+    padding: auto;
+  }
 }
 
 .rectangle-text-info {
-    font-size: 120px;
-    font-family: Nunito;
-    font-weight: bold;
-    color: #CEE7F5;
-    margin-right: 70px;
+  font-size: 120px;
+  font-family: Nunito;
+  font-weight: bold;
+  color: #cee7f5;
+  margin-right: 70px;
 
-    @media (max-width: 768px) {
-      font-size: 10%;
-      margin: 0;
-    }
-
+  @media (max-width: 768px) {
+    font-size: 10%;
+    margin: 0;
+  }
 }
 
-
 .rectangle-third {
-    width: 1600px;
-    height: 170px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: Nunito;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    justify-content: center;
-    animation: slideInLeft 1s forwards;
-    animation-delay: 1s;
-    opacity: 0;
+  width: 1600px;
+  height: 170px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  animation: slideInLeft 1s forwards;
+  animation-delay: 1s;
+  opacity: 0;
 
-    @media (max-width: 768px) {
-      width: 80%;
-      height: auto;
-      font-size: 1.3vh;
-      margin-left: auto;
-      padding: auto;
-    }
-
+  @media (max-width: 768px) {
+    width: 80%;
+    height: auto;
+    font-size: 1.3vh;
+    margin-left: auto;
+    padding: auto;
+  }
 }
 
 .pageSecond {
-    background-color: #CEE7F5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    border-top: 2px solid white;
+  background-color: #cee7f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-top: 2px solid white;
 }
 
 .pageSecondInfo {
@@ -128,50 +123,90 @@
 }
 
 @keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    1% {
-      transform: translateX(-95%);
-      opacity: 0.1;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  @keyframes slideInRight {
-    0% {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    1% {
-      transform: translateX(95%);
-      opacity: 0.1;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .rectangleInfo {
+  0% {
+    transform: translateX(-100%);
     opacity: 0;
-    
   }
-
-  img {
-    margin-top: 30px; 
-
-    @media (max-width: 768px) {
-      width: 20%;
-      height: 20%;
-      margin-left: auto;
-      margin-right: 14%;
-      margin-top: -30%;
-      margin-bottom: -5%;
-    }
-
+  1% {
+    transform: translateX(-95%);
+    opacity: 0.1;
   }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  1% {
+    transform: translateX(95%);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.rectangleInfo {
+  opacity: 0;
+}
+
+img {
+  margin-top: 30px;
+
+  @media (max-width: 768px) {
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: 14%;
+    margin-top: -60%;
+    margin-bottom: -5%;
+  }
+}
+
+.imageOwlStyle1 {
+  display: none;
+
+  width: 50%;
+  position: absolute;
+  bottom: -110vh;
+
+  @media (max-width: 768px) {
+   
+    display: inline;
+  }
+}
+
+.imageAskStyle1 {
+  width: 50%;
+  position: absolute;
+  display: none;
+  height: 10%;
+  left: 8%;
+  bottom: -90vh;
+  @media (max-width: 768px) {
+    display: inline;
+  }
+}
+
+.textStyleAsk1 {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 15%;
+  bottom: -91.5vh;
+
+  @media (max-width: 768px) {
+    display: inline;
+  }
+}
