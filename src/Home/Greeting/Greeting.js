@@ -9,7 +9,7 @@ import Ask from "/Users/frontend/AllMaths-site/src/assets/askEllipse.png";
 function BodyGreetingPage() {
 
   const handleButtonClick = () => {
-    const chatUrl = "https://t.me/Nastushenka"; // Замените на ссылку на ваш чат в Телеграм
+    const chatUrl = "https://t.me/Nastushenka";
     window.open(chatUrl, "_blank");
   };
 

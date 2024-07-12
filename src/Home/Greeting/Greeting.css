@@ -1,269 +1,294 @@
 .body {
   margin: 0;
-    background-image: url("/Users/frontend/AllMaths-site/src/assets/BackgroundPicture.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #096B92;
+  background-image: url("/Users/frontend/AllMaths-site/src/assets/BackgroundPicture.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #096b92;
 
-    @media (max-width: 768px) {
-      flex-direction: column;
-      width: 100%;
-    }
-
-  }
-
-  .rectangle1 {
-    width: 1048px;
-    height: 530px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
+  @media (max-width: 1024px) {
     flex-direction: column;
-    align-items: center;
-    border: #CEE7F5 solid 3px;
-    margin-top: -86px;
+    width: 100%;
+  }
+}
 
-    @media (max-width: 768px) {
-      width: 80%;
-      height: auto;
-      margin: 5%;
-      padding: 5%;
-      margin-top: 0%;
+.rectangle1 {
+  width: 1048px;
+  height: 530px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  border: #cee7f5 solid 3px;
+  margin-top: -86px;
 
-    }
-
+  @media (max-width: 1024px) {
+    width: 80%;
+    height: auto;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 0%;
   }
 
-  .rectangle2 {
-    width: 692px;
-    height: 530px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-    border: #CEE7F5 solid 3px;
-    margin-top: -86px;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    height: 80%;
+    margin-top: 10%;
+  }
+}
 
-    @media (max-width: 768px) {
-      width: 80%;
-      height: auto;
-      margin: 5%;
-      padding: 5%;
-    }
+.rectangle2 {
+  width: 692px;
+  height: 530px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  border: #cee7f5 solid 3px;
+  margin-top: -86px;
 
+  @media (max-width: 1024px) {
+    width: 80%;
+    height: auto;
+    margin: 5%;
+    padding: 5%;
   }
 
-  .button {
-    width: 375px;
-    height: 74px;
-    background-color: #FF932A;
-    border-radius: 50px;
-    padding-left: 65px;
-    padding-right: 65px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Nunito";
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    height: 80%;
+    margin-top: 0;
+  }
+}
+
+.button {
+  width: 375px;
+  height: 74px;
+  background-color: #ff932a;
+  border-radius: 50px;
+  padding-left: 65px;
+  padding-right: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-left: auto;
+  margin-right: 20px;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    height: 3rem;
+    margin-top: 10%;
+    font-size: 1.4rem;
+    margin-right: auto;
+    padding-left: 24%;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 10%;
+  }
+}
 
+.textStyleFirst {
+  font-family: "Bitter";
+  font-weight: bold;
+  font-size: 52px;
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 40px;
 
-
-    @media (max-width: 768px) {
-      width: 80%;
-      height: 3rem;
-      margin-top: 10%;
-      font-size: 1.4rem;
-      margin-left: ;
-      margin-right: auto;
-      padding-left: 24%;
-    }
-
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 5%;
   }
 
-  .textStyleFirst {
-    font-family: "Bitter";
-    font-weight: bold;
-    font-size: 52px;
-    text-align: center;
-    margin: 20px 0;
-    margin-bottom: 40px;
-
-    @media (max-width: 768px) {
-      font-size: 1.5rem;
-      margin: 0;
-      margin-bottom: 5%;
-    }
-
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 0;
+    font-size: 3rem;
+    margin-bottom: 5%;
   }
-  
-  .textStyleSecond {
-    font-family: "Nunito";
-    font-weight: normal;
-    font-size: 30px;
-    text-align: center;
-    margin: 50px;
-    margin-bottom: 90px;
+}
 
-    @media (max-width: 768px) {
-      font-size: 18px;
-      margin-top: 5%;
-      font-size: 1.1rem;
-      margin: 0;
-    }
+.textStyleSecond {
+  font-family: "Nunito";
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 90px;
 
-  }
-  
-  .textStyleThird {
-    font-family: "Bitter";
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin: 20px 0;
-    color: #FF932A;
-    margin-top: 40px;
-
-    @media (max-width: 768px) {
-      font-size: 1.1rem;
-      margin-top: 0px;
-    }
-
-  }
-  
-  .textStyleFourth {
-    font-family: "Nunito";
-    font-weight: normal;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 80px;
-
-    @media (max-width: 768px) {
-      margin: 0;
-      font-size: 1rem;
-      margin-bottom: 10%;
-    }
-
+  @media (max-width: 768px) {
+    font-size: 18px;
+    margin-top: 5%;
+    font-size: 1.1rem;
+    margin: 0;
   }
 
-  .imageStyle {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 28px;
-
-    @media (max-width: 768px) {
-      /* width: 1.5rem;
-      height: 1.5rem;
-      margin-bottom: 1.7rem;
-      padding-right: 0.1rem; */
-
-      opacity: 0;
-    }
-
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
   }
-  
-  .textStyleButton {
-    flex: 1; 
-  }
-  
-  .containerStyle {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+}
 
-    @media (max-width: 768px) {
-      width: 24px;
-      height: 24px;
-      margin-top: 20%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10%;
-    }
+.textStyleThird {
+  font-family: "Bitter";
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+  color: #ff932a;
+  margin-top: 40px;
 
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    margin-top: 0px;
   }
 
-  .buttonContainerStyle {
-    margin: 20px; /* Увеличение расстояния между кнопками */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-top: 2%;
   }
-  
-  .imageOwlStyle {
-    position: absolute;
-    bottom: -89px;
-    right: 0;
-    height: 180px;
+}
 
-    @media (max-width: 768px) {
-      opacity: 0;
-    }
+.textStyleFourth {
+  font-family: "Nunito";
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
 
-  
-  }
-  
-  .imageAskStyle {
-    position: absolute;
-    bottom: -10px;
-    right: 164px;
-    height: 100px;
-
-    @media (max-width: 768px) {
-      opacity: 0;
-    }
-
-  }
-  
-  .textStyleAsk {
-    font-family: "Nunito";
-    font-weight: bold;
-    font-size: 23px;
-    text-align: center;
-    color: #FFFFFF;
-    position: absolute;
-    bottom: -10px;
-    right: 210px;
-    z-index: 1;
-
-    @media (max-width: 768px) {
-      opacity: 0;
-    }
-
+  @media (max-width: 768px) {
+    margin: 0;
+    font-size: 1rem;
+    margin-bottom: 10%;
   }
 
-  .button:hover {
-    background-color: #FFCC99;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-bottom: 2%;
+  }
+}
+
+.imageStyle {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 28px;
+
+  @media (max-width: 768px) {
+    opacity: 0;
   }
 
-  .rectangle1 {
-    opacity: 0; /* Начальная прозрачность */
-    animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.textStyleButton {
+  flex: 1;
+}
+
+.containerStyle {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+
+  @media (max-width: 768px) {
+    width: 24px;
+    height: 24px;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
   }
 
-  .rectangle2 {
-    opacity: 0; /* Начальная прозрачность */
-    animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin: 0;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px); /* Начальное расположение */
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0); /* Конечное расположение */
-    }
-  }
+}
 
-  
+.buttonContainerStyle {
+  margin: 20px; /* Увеличение расстояния между кнопками */
+}
+
+.imageOwlStyle {
+  position: absolute;
+  bottom: -89px;
+  right: 0;
+  height: 180px;
+
+  @media (max-width: 1024px) {
+    opacity: 0;
+  }
+}
+
+.imageAskStyle {
+  position: absolute;
+  bottom: -10px;
+  right: 164px;
+  height: 100px;
+
+  @media (max-width: 1024px) {
+    opacity: 0;
+  }
+}
+
+.textStyleAsk {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: -10px;
+  right: 210px;
+  z-index: 1;
+
+  @media (max-width: 1024px) {
+    opacity: 0;
+  }
+}
+
+.button:hover {
+  background-color: #ffcc99;
+}
+
+.rectangle1 {
+  opacity: 0; /* Начальная прозрачность */
+  animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
+}
+
+.rectangle2 {
+  opacity: 0; /* Начальная прозрачность */
+  animation: fadeIn 1.5s ease-in-out forwards; /* Анимация появления */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* Начальное расположение */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Конечное расположение */
+  }
+}
