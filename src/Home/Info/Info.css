@@ -25,6 +25,22 @@
     padding: auto;
     margin-top: 0;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 30%;
+    height: auto;
+    font-size: 3vh;
+    margin-left: auto;
+    padding: auto;
+    margin-top: 0;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 34px;
+    width: 30%;
+    height: auto;
+  }
+
 }
 
 .rectangle-second {
@@ -53,6 +69,22 @@
     margin-left: auto;
     padding: auto;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 60%;
+    height: auto;
+    font-size: 3vh;
+    margin-left: auto;
+    padding: auto;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 28px;
+    width: 60%;
+    margin: 0;
+    height: auto;
+  }
+
 }
 
 .rectangle-text-info {
@@ -66,6 +98,18 @@
     font-size: 10%;
     margin: 0;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 20%;
+    margin: 0;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 80px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
 }
 
 .rectangle-third {
@@ -94,6 +138,22 @@
     margin-left: auto;
     padding: auto;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 80%;
+    height: auto;
+    font-size: 2vh;
+    margin-left: auto;
+    padding: auto;
+    margin-bottom: 20vh;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 30px;
+    width: 90%;
+    height: auto;
+  }
+
 }
 
 .pageSecond {
@@ -167,6 +227,21 @@ img {
     margin-top: -60%;
     margin-bottom: -5%;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: 4%;
+    margin-top: -30%;
+    margin-bottom: 0%;
+  }
+
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+display: none;
+  }
+
 }
 
 .imageOwlStyle1 {
@@ -180,6 +255,14 @@ img {
    
     display: inline;
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+   
+    display: inline;
+    height: 34%;
+    width: auto;
+    bottom: -115vh;
+  }
 }
 
 .imageAskStyle1 {
@@ -189,8 +272,12 @@ img {
   height: 10%;
   left: 8%;
   bottom: -90vh;
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: inline;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: inline;
+    bottom: -84vh;
   }
 }
 
@@ -206,7 +293,7 @@ img {
   left: 15%;
   bottom: -91.5vh;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     display: inline;
   }
 
@@ -215,4 +302,21 @@ img {
     font-size: 16px;
     bottom: -92.5vh
   }
+
+  @media(min-width: 768px) and (max-width: 1023px) {
+    display: inline;
+    bottom: -84.5vh;
+    font-size: 26px;
+    margin-left: 5%;  }
+
+
+  @media (min-width: 376px) and (max-width: 540px) {
+    display: inline;
+    font-size: 18px;
+    bottom: -94vh;
+    margin-left: 4%; 
+   
+
+  }
+
 }

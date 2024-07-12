@@ -10,8 +10,8 @@ button {
   }
 
   .textStyleAsk {
-    overflow: hidden; /* Скрыть избыточный текст */
-    font-size: 24px; /* Размер шрифта */
+    overflow: hidden; 
+    font-size: 24px; 
   }
   
   .textStyleAsk::after {

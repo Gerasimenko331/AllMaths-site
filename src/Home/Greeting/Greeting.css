@@ -9,7 +9,7 @@
   align-items: center;
   color: #096b92;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     flex-direction: column;
     width: 100%;
   }
@@ -27,7 +27,7 @@
   border: #cee7f5 solid 3px;
   margin-top: -86px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     width: 80%;
     height: auto;
     margin: 5%;
@@ -35,10 +35,22 @@
     margin-top: 0%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 911px) {
     height: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
+
+  @media (min-width: 912px) and (max-width: 1024px) {
+    height: 80%;
+    margin-top: 5%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    height: 74vh;
+    margin-top: 0;
+  }
+
+
 }
 
 .rectangle2 {
@@ -53,7 +65,7 @@
   border: #cee7f5 solid 3px;
   margin-top: -86px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     width: 80%;
     height: auto;
     margin: 5%;
@@ -61,9 +73,15 @@
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
-    height: 80%;
+    height: 76%;
+    margin-top: -3%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    height: 74vh;
     margin-top: 0;
   }
+
 }
 
 .button {
@@ -86,7 +104,7 @@
   margin-left: auto;
   margin-right: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 80%;
     height: 3rem;
     margin-top: 10%;
@@ -95,11 +113,34 @@
     padding-left: 24%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     margin-top: 10%;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  @media (min-width: 376px) and (max-width: 540px) {
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    padding: 0  ;
+   
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 0  ;
   }
 }
 
@@ -111,16 +152,20 @@
   margin: 20px 0;
   margin-bottom: 40px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 1.5rem;
     margin: 0;
     margin-bottom: 5%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
     font-size: 3rem;
     margin-bottom: 5%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 2rem;
   }
 }
 
@@ -132,17 +177,21 @@
   margin: 50px;
   margin-bottom: 90px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 18px;
     margin-top: 5%;
     font-size: 1.1rem;
     margin: 0;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
     font-size: 1.7rem;
     margin-bottom: 5%;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    font-size: 1.3rem;
   }
 }
 
@@ -155,17 +204,25 @@
   color: #ff932a;
   margin-top: 40px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     font-size: 1.1rem;
     margin-top: 0px;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
     font-size: 2rem;
     margin-bottom: 5%;
-    margin-top: 2%;
+    margin-top: 0%;
   }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    margin-top: 10%;
+    font-size: 1.4rem;
+    margin-bottom: 20%;
+   
+  }
+  
 }
 
 .textStyleFourth {
@@ -175,16 +232,22 @@
   text-align: center;
   margin-top: 80px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     margin: 0;
     font-size: 1rem;
     margin-bottom: 10%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
     font-size: 1.7rem;
     margin-bottom: 2%;
+  }
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    margin: 0;
+    font-size: 1.3rem;
+    margin-bottom: 25%;
+    margin-top: 0%;
   }
 }
 
@@ -193,11 +256,23 @@
   height: 40px;
   margin-bottom: 28px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     opacity: 0;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: none;
+  }
+  @media (max-width: 375px) {
+    display: none;
+  }
+
+
+  @media (min-width: 376px) and (max-width: 540px) {
+    display: none;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
     display: none;
   }
 }
@@ -212,7 +287,7 @@
   justify-content: center; /* Центрирование по горизонтали */
   align-items: center; /* Центрирование по вертикали */
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 24px;
     height: 24px;
     margin-top: 20%;
@@ -221,13 +296,14 @@
     margin-bottom: 10%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
+    margin-top: 12%;
   }
 }
 
 .buttonContainerStyle {
-  margin: 20px; /* Увеличение расстояния между кнопками */
+  margin: 20px; 
 }
 
 .imageOwlStyle {
@@ -236,7 +312,7 @@
   right: 0;
   height: 180px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1400px) {
     opacity: 0;
   }
 }
@@ -247,7 +323,7 @@
   right: 164px;
   height: 100px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1400px) {
     opacity: 0;
   }
 }
@@ -263,7 +339,7 @@
   right: 210px;
   z-index: 1;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1400px) {
     opacity: 0;
   }
 }

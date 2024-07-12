@@ -1,15 +1,20 @@
 .logos {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 
-    @media (max-width: 768px) {
-        width: 4rem;
-        height: 4rem;
-      }
+  @media (max-width: 768px) {
+    width: 4rem;
+    height: 4rem;
+  }
 
-      @media (min-width: 768px) and (max-width: 1024px) {
-        width: 7.7rem;
-        height: 7.7rem;
-      }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 7.7rem;
+    height: 7.7rem;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1400px) {
+    width: 5rem;
+    height: 5rem;
+  }
 
 }
