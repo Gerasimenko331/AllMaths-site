@@ -7,7 +7,7 @@
     height: 4rem;
   }
 
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     width: 7.7rem;
     height: 7.7rem;
   }

@@ -5,6 +5,7 @@ import ImageButtonAndroid from "/Users/frontend/AllMaths-site/src/Home/Greeting/
 import ImageButtonIos from "/Users/frontend/AllMaths-site/src/Home/Greeting/buttons/Ios.js";
 import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
 import Ask from "/Users/frontend/AllMaths-site/src/assets/askEllipse.png";
+import AskFull from "/Users/frontend/AllMaths-site/src/assets/Ask.svg";
 
 function BodyGreetingPage() {
 
@@ -51,11 +52,11 @@ function BodyGreetingPage() {
         </div>
       </div>
       <div>
-        <p className="textStyleAsk">
+        {/* <p className="textStyleAsk">
           Учи математику с <br />
           удовольствием!
-        </p>
-        <img src={Ask} className="imageAskStyle" alt="" />
+        </p> */}
+        <img src={AskFull} className="imageAskStyle" alt="" />
         <img src={Owl} className="imageOwlStyle" alt="" />
       </div>
     </div>
