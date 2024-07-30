@@ -1,11 +1,10 @@
 import React from "react";
 import "./Greeting.css";
-import Arrow from "/Users/frontend/AllMaths-site/src/assets/arrow.svg";
-import ImageButtonAndroid from "/Users/frontend/AllMaths-site/src/Home/Greeting/buttons/Android.js";
-import ImageButtonIos from "/Users/frontend/AllMaths-site/src/Home/Greeting/buttons/Ios.js";
-import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
-import Ask from "/Users/frontend/AllMaths-site/src/assets/askEllipse.png";
-import AskFull from "/Users/frontend/AllMaths-site/src/assets/Ask.svg";
+import Arrow from "src/assets/arrow.svg";
+import ImageButtonAndroid from "src/Home/Greeting/buttons/Android.js";
+import ImageButtonIos from "src/Home/Greeting/buttons/Ios.js";
+import Owl from "src/assets/Owl.svg";
+import AskFull from "src/assets/Ask.svg";
 
 function BodyGreetingPage() {
 
@@ -52,10 +51,6 @@ function BodyGreetingPage() {
         </div>
       </div>
       <div>
-        {/* <p className="textStyleAsk">
-          Учи математику с <br />
-          удовольствием!
-        </p> */}
         <img src={AskFull} className="imageAskStyle" alt="" />
         <img src={Owl} className="imageOwlStyle" alt="" />
       </div>

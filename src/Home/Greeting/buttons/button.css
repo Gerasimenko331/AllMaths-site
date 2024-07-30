@@ -1,24 +1,12 @@
-button {
+buttonLogo {
     border: none;
     background: none;
     cursor: pointer;
     transition: transform 0.3s;
   }
   
-  button:hover {
+  buttonLogo:hover {
     transform: scale(1.1);
-  }
-
-  .textStyleAsk {
-    overflow: hidden; 
-    font-size: 24px; 
-  }
-  
-  .textStyleAsk::after {
-    content: "|"; /* Мигающий курсор в конце текста */
-    animation: cursorBlink 0.7s infinite;
-    display: inline-block;
-    width: 0; /* Начальная ширина для создания эффекта печатания */
   }
   
   @keyframes cursorBlink {

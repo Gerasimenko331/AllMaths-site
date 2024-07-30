@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '/Users/frontend/AllMaths-site/src/Home/Header/Header.js';
-import Greeting from '/Users/frontend/AllMaths-site/src/Home/Greeting/Greeting.js';
-import Info from '/Users/frontend/AllMaths-site/src/Home/Info/Info.js';
-import Conclusion from '/Users/frontend/AllMaths-site/src/Home/Conclusion/Conclusion.js';
+import Header from 'src/Home/Header/Header.js';
+import Greeting from 'src/Home/Greeting/Greeting.js';
+import Info from 'src/Home/Info/Info.js';
+import Conclusion from 'src/Home/Conclusion/Conclusion.js';
 
 const Home = () => {
    return (

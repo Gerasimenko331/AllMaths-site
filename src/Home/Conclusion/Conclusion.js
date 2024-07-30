@@ -1,9 +1,9 @@
 import React from "react";
 import "./Conclusion.css";
-import Footer from "/Users/frontend/AllMaths-site/src/Home/Footer/Footer.js";
-import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
-import googlePlay from "/Users/frontend/AllMaths-site/src/assets/googlePlayButton.svg";
-import appStore from "/Users/frontend/AllMaths-site/src/assets/appStoreButton.svg";
+import Footer from "src/Home/Footer/Footer.js";
+import Owl from "src/assets/Owl.svg";
+import googlePlay from "src/assets/googlePlayButton.svg";
+import appStore from "src/assets/appStoreButton.svg";
 import TextOnScroll from './TextOnScroll'
 
 const Conclusion = () => {

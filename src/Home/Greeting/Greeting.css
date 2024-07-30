@@ -9,7 +9,7 @@
   align-items: center;
   color: #096b92;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 912px) {
     flex-direction: column;
     width: 100%;
   }
@@ -46,14 +46,14 @@
     margin-bottom: 0;
   }
 
-  @media (min-width: 913px) and (max-width: 1024px) {
+  @media (min-width: 913px) and (max-width: 1023px) {
     height: 80%;
     margin-top: 5%;
   }
 
-  @media (min-width: 1024px) and (max-width: 1400px) {
-    height: 74vh;
-    margin-top: 0;
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    height: 60%;
+    margin: 1%;
   }
 
 
@@ -90,9 +90,16 @@
   }
 
 
-  @media (min-width: 913px) and (max-width: 1400px) {
+  @media (min-width: 913px) and (max-width: 1023px) {
     height: 74vh;
     margin-top: 0;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    height: 60%;
+    margin: 1%;
+    width: 60%;
+    
   }
 
 }
@@ -126,7 +133,7 @@
     padding-left: 24%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -154,6 +161,7 @@
     margin-right: auto;
     justify-content: center;
     padding: 0  ;
+    margin-top: 14%;
   }
 }
 
@@ -205,6 +213,8 @@
 
   @media (min-width: 1024px) and (max-width: 1400px) {
     font-size: 1.3rem;
+    margin-top: 10%;
+    margin-bottom: 0;
   }
 }
 
@@ -230,7 +240,7 @@
   }
 
   @media (min-width: 1024px) and (max-width: 1400px) {
-    margin-top: 10%;
+    margin-top: 3%;
     font-size: 1.4rem;
     margin-bottom: 20%;
    
@@ -309,14 +319,26 @@
     margin-bottom: 10%;
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     margin: 0;
     margin-top: 12%;
   }
+  @media (min-width: 1024px) and (max-width: 1480px) {
+    margin: 0;
+    margin-top: 0;
+  }
+
 }
 
 .buttonContainerStyle {
   margin: 20px; 
+
+  @media (min-width: 1024px) and (max-width: 1480px) {
+    margin: 0;
+    margin-top: 0;
+  }
+
+  
 }
 
 .imageOwlStyle {

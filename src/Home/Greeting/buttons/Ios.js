@@ -1,6 +1,7 @@
 import React from 'react';
-import iosLogo from '/Users/frontend/AllMaths-site/src/assets/iosLogo.svg';
+import iosLogo from 'src/assets/iosLogo.svg';
 import './button.css';
+import './logos.css';
 
 function ImageButtonIos() {
     const handleButtonClick = () => {
@@ -11,8 +12,8 @@ function ImageButtonIos() {
     };
   
     return (
-      <button onClick={handleButtonClick} style={{ border: 'none', background: 'none', cursor: 'pointer' }}>
-        <img src={iosLogo} alt="Button" class="logos" onClick={handleButtonClick} />
+      <button onClick={handleButtonClick} className='buttonLogo'>
+        <img src={iosLogo} alt="Button" className="logos" onClick={handleButtonClick} />
       </button>
     );
   }

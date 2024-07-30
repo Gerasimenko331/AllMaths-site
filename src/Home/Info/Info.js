@@ -1,9 +1,8 @@
 import "./Info.css";
 import Cup from "../../assets/Cup.svg";
 import InfoScrollAnimation from "./InfoScrollAnimation";
-import Owl from "/Users/frontend/AllMaths-site/src/assets/Owl.svg";
-import Ask from "/Users/frontend/AllMaths-site/src/assets/askEllipse.png";
-import AskFull from "/Users/frontend/AllMaths-site/src/assets/Ask.svg";
+import Owl from "src/assets/Owl.svg";
+import AskFull from "src/assets/Ask.svg";
 
 
 function Info() {
